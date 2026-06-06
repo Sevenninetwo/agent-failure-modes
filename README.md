@@ -14,7 +14,7 @@ I prepared these notes with feedback from my cofounders, and are written for pra
 
 ## Writing
 
-### [What Actually Breaks Production AI Agents](./agent-failure-modes.html)
+### [What Actually Breaks Production AI Agents](https://sevenninetwo.github.io/agent-failure-modes/)
 
 Seven failure modes I've encountered deploying agentic systems - planner loops, non-idempotent retries, silent infrastructure failures, memory poisoning, hallucination under weak retrieval, prompt injection, and observability. Each section is built around a specific incident rather than a category. No toy code snippets. No tidy conclusions.
 
@@ -24,7 +24,7 @@ The article went through multiple rounds of review by my cofounders before publi
 
 ## Background
 
-I co-founded [Qrigami Labs](https://qrigami.com), a commercial strategy / GTM boutique consultancy focused on revenue architecture for growth-stage companies. Before that: growth and monetisation roles at Meta, Airbnb, Reddit, NIQ, and SPH Media across Southeast Asia.
+I co-founded [Qrigami Labs](https://qrigami-labs.netlify.app/), a commercial strategy / GTM boutique consultancy focused on revenue architecture for growth-stage companies. Before that: growth and monetisation roles at Meta, Airbnb, Reddit, NIQ, and SPH Media across Southeast Asia.
 
 The AI work here isn't a pivot. It's what happens when someone who has spent 16 years thinking about how commercial systems break starts applying that lens to AI systems.
 
