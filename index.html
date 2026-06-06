@@ -183,7 +183,7 @@
 
     <div class="section">
       <h2>The Planner Loop</h2>
-      <p>Let me stay on that first incident, because I think it's the most important thing I can share.</p>
+      <p>Let me stay on that first incident, because I think it's the most important thing I can share, given my background (non-engineering) and experience.</p>
       <p>Agents are not chatbots. A chatbot responds to a turn. An agent executes a plan. Plans can fail in ways that aren't obviously failures — the agent above wasn't hallucinating, it was doing exactly what a reasonable system would do: retry on failure. The problem was that nothing in the architecture distinguished between a transient failure worth retrying and a permanent one worth escalating.</p>
       <p>I tend to group these together as planner loops, even though the underlying causes differ. The plan is rational at each step. The aggregate behavior is a disaster.</p>
       <p>The subtler version: a multi-step agent where the planner and executor are loosely coupled. The executor completes the task. The planner incorrectly concludes it didn't. It requeues. The executor runs it again. Now you have duplicate writes to a database, duplicate emails sent to a customer. Each individual step looked fine.</p>
