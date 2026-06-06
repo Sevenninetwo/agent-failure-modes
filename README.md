@@ -12,8 +12,6 @@ I prepared these notes with feedback from my cofounders, and are written for pra
 
 ---
 
-## Writing
-
 ### [What Actually Breaks Production AI Agents](https://sevenninetwo.github.io/agent-failure-modes/)
 
 Seven failure modes I've encountered deploying agentic systems - planner loops, non-idempotent retries, silent infrastructure failures, memory poisoning, hallucination under weak retrieval, prompt injection, and observability. Each section is built around a specific incident rather than a category. No toy code snippets. No tidy conclusions.
